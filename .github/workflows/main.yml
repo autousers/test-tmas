@@ -16,6 +16,6 @@ jobs:
           malwareScan: true
           secretsScan: true
           artifact: registry:docker.io/vulnerables/web-dvwa:latest
-          additionalArgs: --region=eu-central-1
+          additionalArgs: --region=ap-southeast-1
           tmasApiKey: ${{ secrets.TMAS_API_KEY }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
